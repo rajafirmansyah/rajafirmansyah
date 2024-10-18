@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary: #555555;
+    --secondary: #D4AF37;
+    --accent: #f5f5f5;
+  }
+
+.playfair {
+    font-family: "Playfair Display", serif;
+}
+
+.mons {
+    font-family: "Montserrat", sans-serif;
+}
+
+.shadow-hero {
+    text-shadow: 33.75px -3px 7.575px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.75;
+    -webkit-text-stroke-color: var(--accent, #D4AF37);
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.t-shadow {
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 2.998px 2.998px 2.998px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.7496095895767212;
+    -webkit-text-stroke-color: var(--body, #353535);
+}
+
+.about-sw {
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 0px 2.998px 2.998px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.7496095895767212;
+    -webkit-text-stroke-color: var(--body, #353535);
+}
+
+.btn-sw {
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 2.249px 4.498px 2.998px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.7496095895767212;
+    -webkit-text-stroke-color: var(--body, #353535);
+}
+
+.ot {
+    display: flex;
+    padding: 18.74px 31.109px 74.858px 31.858px;
+    flex-direction: column;
+    align-items: center;
+    gap: 65.216px;
+    border-radius: 8.995px;
+    background: var(--primary, #555);
+    box-shadow: 12.743px 12.743px 2.998px 0px rgba(0, 0, 0, 0.25), 22.488px 20.239px 2.998px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.o-time {
+    color: var(--secondary, #D4AF37);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 0px 2.998px 2.998px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.7496095895767212;
+    -webkit-text-stroke-color: var(--primary    , #353535);
+    font-family: "Playfair Display";
+    font-size: 35.981px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.t-time {
+    color: var(--accent);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 26.986px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.t-best {
+    color: var(--secondary, #D4AF37);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 0px 2.998px 2.998px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1.4992191791534424;
+    -webkit-text-stroke-color: var(--body, #353535);
+    font-family: "Playfair Display";
+    font-size: 95.95px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.img-best {
+    box-shadow: 0px 2.998px 2.998px 0px rgba(0, 0, 0, 0.25) inset, 19.49px 6.746px 2.998px 0px rgba(0, 0, 0, 0.25);
+}
+
+.des-best {
+    color: var(--accent);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 2.998px 5.997px 2.998px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 17.991px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.btn-best {
+    box-shadow: 0px 2.998px 2.998px 0px rgba(0, 0, 0, 0.25) inset;
+    filter: drop-shadow(0px 2.998px 2.998px rgba(0, 0, 0, 0.25));
+    width: 360.562px;
+    height: 53.972px;
+    flex-shrink: 0;
+    border-radius: 7.496px;
+    border: 0.75px solid #353535;
+    background: var(--secondary);
+    font-family: Montserrat;
+    color: var(--accent);
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 2.249px 4.498px 2.998px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.7496095895767212;
+    -webkit-text-stroke-color: #353535;
+    font-size: 17.991px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.typo-about {
+    color: var(--secondary);
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 12px 12px 2.667px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.6666666865348816;
+    -webkit-text-stroke-color: var(--body, #353535);
+    font-family: "Playfair Display";
+    text-transform: capitalize;
+}
+
+.box-about1 {
+    background: var(--accent);
+    box-shadow: 28.667px 29.333px 5.6px 6px rgba(0, 0, 0, 0.25), 14px 14px 2.667px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.text-box {
+    color: #353535;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 2.667px 2.667px 2.667px rgba(0, 0, 0, 0.25);
+    font-family: "Playfair Display";
+    font-size: 19.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40.667px;
+    text-transform: capitalize;
+}
+
+.text-box2 {
+    background: var(--primary);
+    box-shadow: 28.667px 29.333px 5.6px 6px rgba(0, 0, 0, 0.25), 14px 14px 2.667px 0px rgba(0, 0, 0, 0.25) inset;
+    flex-shrink: 0;
+}
+
+.drop-shadows {
+    filter: drop-shadow(16.658px 15.992px 2.665px rgba(0, 0, 0, 0.25));
+}
+
+.geti {
+    color: #353535;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 0px 2.667px 2.667px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.6666666865348816;
+    -webkit-text-stroke-color: var(--accent, #D4AF37);
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.box-geti {
+    border-radius: 6.667px;
+    background: var(--primary, #555);
+    box-shadow: 6px 6px 2.667px 0px rgba(0, 0, 0, 0.25) inset, 8.667px 6px 2.667px 4.667px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    color: var(--secondary, #D4AF37);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-shadow: 0px 2.667px 2.667px rgba(0, 0, 0, 0.25);
+    font-family: "Playfair Display";
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.box-info {
+    background: #353535;
+    box-shadow: 9.333px 8.667px 2.667px 0px rgba(0, 0, 0, 0.25), 4px 2.667px 3px 5.333px rgba(0, 0, 0, 0.25) inset;
+}
+
+.visit {
+    color: var(--secondary);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+text-shadow: 0px 2.667px 2.667px rgba(0, 0, 0, 0.25);
+font-family: "Playfair Display";
+font-size: 42.667px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.box-lc {
+    background: #555;
+    box-shadow: 0px 2.667px 2.667px 0px rgba(0, 0, 0, 0.25) inset, 0px 2.667px 4.667px 5.333px rgba(0, 0, 0, 0.25); 
+}
