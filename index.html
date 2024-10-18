@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Momoo Juice Bar & Coffee</title>
+  </head>
+  <body class="bg-[#353535]">
+    <header
+      class="min-h-screen bg-no-repeat bg-center bg-cover"
+      style="background-image: url('./assets/bg-home.png')"
+    >
+      <!-- Navbar -->
+      <nav class="">
+        <div
+          class="max-w-screen-xl sticky flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img
+              src="./assets/logo.svg"
+              class="w-[190px] h-[75px]"
+              alt="Flowbite Logo"
+            />
+          </a>
+          <button
+            data-collapse-toggle="navbar-solid-bg"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-200 hover:bg-opacity-20 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            aria-controls="navbar-solid-bg"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+            <ul
+              class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 bg-opacity-25 md:space-x-20 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent"
+            >
+              <li>
+                <a
+                  href="index.html"
+                  class="block text-2xl mons py-2 px-3 md:p-0 text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  class="block text-2xl mons py-2 px-3 md:p-0 text-white"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="menu.html"
+                  class="block text-2xl mons py-2 px-3 md:p-0 text-white"
+                  >Menu</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="block text-2xl mons py-2 px-3 md:p-0 text-white"
+                  >Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="flex flex-col h-screen items-center justify-center">
+        <h1
+          class="text-[#F5F5F5] font-black text-6xl md:text-[96px] italic playfair shadow-hero"
+        >
+          Welcome To
+        </h1>
+        <img
+          src="./assets/logo.svg"
+          class="w-[350px] h-[220px] md:w-[690px] md:h-[220px]"
+          alt="Flowbite Logo"
+        />
+      </div>
+    </header>
+    <main>
+      <!-- About US -->
+      <section
+        class="max-w-7xl py-[75px] gap-[108px] mx-auto flex flex-col md:flex-row relative"
+      >
+        <div class="flex flex-col items-center md:w-1/3">
+          <h2 class="text-[#D4AF37] text-[27px] font-bold about-sw">
+            About Us
+          </h2>
+          <p
+            class="text-[27px] my-8 text-center text-[#F5F5F5] t-shadow font-semibold"
+          >
+            Momoo juice bar & coffee adalah tempat yang segar dan menyenangkan,
+            di mana setiap sajian menghadirkan kesegaran dan kelezatan.
+          </p>
+          <a href="about.html"><button
+            class="text-[#f5f5f5] btn-sw hover:bg-[#555] mons px-5 py-2 rounded-lg bg-[#D4AF37] font-semibold"
+          >
+            More About Us
+          </button></a>
+        </div>
+        <div class="flex w-full md:w-2/3 relative">
+          <div class="flex w-full justify-end relative">
+            <img
+              class="w-[70%] md:w-[550px] rounded-md h-auto md:h-[352px] right-0 absolute top-0"
+              src="./assets/au1.png"
+              alt=""
+            />
+            <img
+              class="w-[50%] md:w-[398px] rounded-md top-28 right-72 h-auto md:h-[297px] absolute md:relative"
+              src="./assets/au2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- End About Us -->
+      <!-- Opening Time -->
+      <section
+        class="h-[540px] bg-cover bg-center bg-no-repeat relative"
+        style="background-image: url('./assets/ot.png')"
+      >
+        <div class="absolute inset-0 opacity-[0.3]"></div>
+        <div class="flex flex-col items-center justify-center h-full">
+          <div class="ot">
+            <p class="o-time mt-8">Opening Time</p>
+            <p class="t-time">Open Mon - Sun | 11am (Harbourbay)</p>
+            <p class="t-time">Open Mon - Sun | 08am (Winsor)</p>
+          </div>
+        </div>
+      </section>
+      <!-- End Opening Time -->
+      <!-- Best Seller -->
+      <section class="flex flex-col items-center">
+        <h1 class="t-best">our Best seller</h1>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 items-center gap-24 my-8 max-w-7xl mx-auto"
+        >
+          <div class="flex flex-col items-center">
+            <img class="img-best" src="./assets/bs1.png" alt="" />
+            <p class="des-best mt-5">smoothies bowl</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img class="img-best" src="./assets/bs2.png" alt="" />
+            <p class="des-best mt-5">oxtail soup</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img class="img-best" src="./assets/bs3.png" alt="" />
+            <p class="des-best mt-5">momoo newyork cheescake</p>
+          </div>
+        </div>
+        <a href="menu.html"><button class="btn-best hover:bg-[#555] mb-14">view our menu</button></a>
+      </section>
+      <!-- End Best Seller -->
+      <!-- footer -->
+      <footer class="bg-[#F5F5F5] p-2 md:px-0 mt-12 py-16">
+        <section
+          class="grid grid-cols-1 md:grid-cols-4 gap-10 items-center md:items-start max-w-7xl mx-auto"
+        >
+          <div class="mx-auto md:mx-0">
+            <img src="./assets/footer.png" alt="" />
+          </div>
+          <div>
+            <p class="text-center md:text-left text-lg leading-[28px] mons">
+              <span class="font-semibold">Momoo juice bar & coffee</span>
+              adalah tempat yang segar dan menyenangkan, di mana setiap sajian
+              menghadirkan kesegaran dan kelezatan.
+            </p>
+          </div>
+          <div class="text-center md:text-left">
+            <p class="text-[24px] text-[#1C2448] text-nowrap font-semibold">
+              Quick Links
+            </p>
+            <ul class="text-[#324A6D] space-y-2">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div
+            class="text-center md:text-left flex flex-col items-center md:items-start"
+          >
+            <p class="text-[24px] text-[#1C2448] text-nowrap font-semibold">
+              Get In Touch
+            </p>
+            <p class="text-[#324A6D] font-lg font-light">
+              Phone:  0822-1999-9955
+            </p>
+            <a href="https://www.instagram.com/momoo_jbnc/"><img class="mt-4" src="./assets/sosmed.png" alt="" /></a>
+          </div>
+        </section>
+      </footer>
+      <!-- End footer -->
+    </main>
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+  </body>
+</html>
