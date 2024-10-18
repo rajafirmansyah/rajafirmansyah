@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Contact Us - Momoo Juice Bar & Coffee</title>
+  </head>
+  <body class="bg-[#353535]">
+    <header
+      class="h-[405px] flex flex-col bg-no-repeat bg-center bg-cover"
+      style="background-image: url('./assets/contact2.png')"
+    >
+      <div class="absolute inset-0 z-[-10] bg-[#353535] bg-opacity-[0.3]"></div>
+      <!-- Navbar -->
+      <nav class="">
+        <div
+          class="max-w-screen-xl sticky flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="index.html"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="./assets/logo.svg"
+              class="w-[190px] h-[75px]"
+              alt="Flowbite Logo"
+            />
+          </a>
+          <button
+            data-collapse-toggle="navbar-solid-bg"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-200 hover:bg-opacity-20 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            aria-controls="navbar-solid-bg"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+            <ul
+              class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 bg-opacity-25 md:space-x-20 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent"
+            >
+              <li>
+                <a
+                  href="index.html"
+                  class="block text-2xl mons py-2 px-3 md:p-0 text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  class="block text-2xl mons py-2 px-3 md:p-0 text-white"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="menu.html"
+                  class="block text-2xl mons py-2 px-3 md:p-0 text-white"
+                  >Menu</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="block text-2xl mons py-2 px-3 md:p-0 text-white"
+                  >Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="flex flex-col justify-center items-center mt-12">
+        <h1
+          class="text-[#F5F5F5] z-[10] font-black text-6xl md:text-[85px] playfair"
+        >
+          Contact Us
+        </h1>
+      </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto my-14 w-full">
+      <div
+        class="h-[450px] drop-shadows p-6 flex items-center bg-cover bg-center bg-no-repeat justify-end"
+        style="background-image: url('./assets/ct1.png')"
+      >
+        <div class="box-geti p-4 flex gap-8">
+          <div class="flex flex-col">
+            <div
+              class="flex bg-[#f5f5f5] py-1 md:py-2 drop-shadows items-center justify-center"
+            >
+              <p class="geti">Get In Touch</p>
+            </div>
+            <p
+              class="text-[8px] md:text-[12px] mt-3 text-[#f5f5f5] mons capitalize"
+            >
+              feel free to contact us any time, we will get <br />
+              back to you as soon as we can !
+            </p>
+            <form action="/" class="mt-2 flex flex-col gap-1 mons" method="post">
+              <label class="text-[#f5f5f5] text-[8px] md:text-sm" for="name"
+                >Name</label
+              >
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+                class="w-full bg-[#f5f5f5] text-[8px] md:text-sm drop-shadows border rounded-[6px] p-2 border-[#f5f5f5] outline-none"
+              />
+              <label class="text-[#f5f5f5] text-[8px] md:text-sm" for="email"
+                >Email</label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                class="w-full bg-[#f5f5f5] text-[8px] md:text-sm drop-shadows border rounded-[6px] p-2 border-[#f5f5f5] outline-none"
+              />
+              <label class="text-[#f5f5f5] text-[8px] md:text-sm" for="comments"
+                >Comments</label
+              >
+              <textarea
+                class="w-full bg-[#f5f5f5] text-[8px] md:text-sm drop-shadows border rounded-[6px] p-2 border-[#f5f5f5] outline-none"
+                name="comments"
+                id="comments"
+                cols="10"
+                rows="2"
+                placeholder="Comments"
+              ></textarea>
+              <button
+                class="bg-[#D4AF37] hover:bg-[#353535] w-[100px] text-[8px] hover:text-[#F5F5F5] md:text-sm drop-shadows border rounded-[6px] p-2 border-[#D4AF37] hover:border-[#353535] outline-none"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+          <div
+            class="flex flex-col gap-2 md:gap-5 px-12 py-8 drop-shadows box-info"
+          >
+            <p class="info">Info</p>
+            <p
+              class="text-[#f5f5f5] font-bold text-[10px] md:text-[12px] mons text-center"
+            >
+              Harbourbay <br />
+              Open Mon - Sun | 11am
+            </p>
+            <p
+              class="text-[#f5f5f5] font-bold text-[10px] md:text-[12px] mons text-center"
+            >
+              Winsor <br />
+              Open Mon - Sun | 08am
+            </p>
+            <div class="flex items-center gap-1">
+              <img src="./assets/telp.png" alt="" />
+              <p
+                class="mons text-[#f5f5f5] text-[10px] md:text-[12px] font-semibold"
+              >
+                 0822-1999-995
+              </p>
+            </div>
+            <div class="flex items-center gap-1">
+              <img src="./assets/ig.png" alt="" />
+              <p
+                class="mons text-[#f5f5f5] text-[10px] md:text-[12px] font-semibold"
+              >
+                 momoo_jbnc
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- visit Us -->
+    <h1 class="visit">visit Us</h1>
+    <main class="my-10">
+      <div id="map" class="max-w-7xl relative mx-auto h-[352px]">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.31415599185!2d104.01185463922155!3d1.1415178666783004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98922c016e6e5%3A0x35832ecfe70be539!2sMoMoo%20Juice%20Bar%20%26%20Coffee!5e0!3m2!1sid!2sid!4v1716700058266!5m2!1sid!2sid"
+          width="100%"
+          height="352"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+        <div
+          class="absolute drop-shadows top-44 left-3 w-56 box-lc max-w-[264px] text-center p-2 text-[#f5f5f5]"
+        >
+          <p class="text-2xl">1st location</p>
+        </div>
+      </div>
+    </main>
+    <main class="my-10">
+      <div id="map" class="max-w-7xl relative mx-auto h-[352px]">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.0078013451475!2d103.996827!3d1.154915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98b78437aadf7%3A0x238cfd10cd794c7c!2sMoMoo%20Juice%20Bar%20%26%20Coffee%20Harbour%20Bay!5e0!3m2!1sen!2sus!4v1716700682062!5m2!1sen!2sus" width="100%" height="352" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </iframe>
+        <div
+          class="absolute drop-shadows top-3 right-3 w-56 box-lc max-w-[264px] text-center p-2 text-[#f5f5f5]"
+        >
+          <p class="text-2xl">2nd location</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-[#F5F5F5] p-2 md:px-0 mt-12 py-16">
+      <section
+        class="grid grid-cols-1 md:grid-cols-4 gap-10 items-center md:items-start max-w-7xl mx-auto"
+      >
+        <div class="mx-auto md:mx-0">
+          <img src="./assets/footer.png" alt="" />
+        </div>
+        <div>
+          <p class="text-center md:text-left text-lg leading-[28px] mons">
+            <span class="font-semibold">Momoo juice bar & coffee</span>
+            adalah tempat yang segar dan menyenangkan, di mana setiap sajian
+            menghadirkan kesegaran dan kelezatan.
+          </p>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="text-[24px] text-[#1C2448] text-nowrap font-semibold">
+            Quick Links
+          </p>
+          <ul class="text-[#324A6D] space-y-2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div
+          class="text-center md:text-left flex flex-col items-center md:items-start"
+        >
+          <p class="text-[24px] text-[#1C2448] text-nowrap font-semibold">
+            Get In Touch
+          </p>
+          <p class="text-[#324A6D] font-lg font-light">
+            Phone:  0822-1999-9955
+          </p>
+          <a href="https://www.instagram.com/momoo_jbnc/"><img class="mt-4" src="./assets/sosmed.png" alt="" /></a>
+        </div>
+      </section>
+    </footer>
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/contact.js"></script>
+
+  </body>
+</html>
